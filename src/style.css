@@ -120,3 +120,14 @@ body {
 .twitter-logo:hover, .github-logo:hover, .linkedin-logo:hover{
   height: 30px;
 }
+
+/* Media Queries */
+
+@media screen and (max-width: 500px) {
+  .Card-Container {
+    background-color: rgba(35, 37, 43, 1);
+    height: 100vh; 
+    width: 500px; 
+    text-align: center;
+  }
+}
