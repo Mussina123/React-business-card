@@ -122,3 +122,15 @@ body {
 }
 
 /* Media Queries */
+
+@media screen and (max-width:500px) {
+  .middle-container {
+    margin: 0;
+  }
+  .Card-Container {
+    width: fit-content;
+  }
+  .Footer-container {
+    margin: 0; 
+  }
+}
