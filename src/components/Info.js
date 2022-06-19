@@ -14,10 +14,14 @@ export default function Info() {
             <div className='middle-container'>
                 <h1 className='profile-h1'> Tyler Beck</h1>
                 <h3 className='job-title'>Frontend Engineer </h3>
-                <h6 className='email'>https://tylerbeck-webdev.netlify.app/</h6>
+                <a href='https://tylerbeck-webdev.netlify.app/' target= '_blank' rel="noreferrer" > 
+                <h6 className='portfolio'>https://tylerbeck-webdev.netlify.app/</h6>
+                </a>
                 <div className='button-container'> 
-                    <img src= {EmailButton} className='Email-button' alt='email'/>
-                    <img src= {LinkedInButton} className='Linkedin-button' alt='email'/>
+                   <a href='mailto:softwaretpd2035@gmail.com'> <img src= {EmailButton} className='Email-button' alt='email'/></a>
+                    <a href='https://www.linkedin.com/in/tyler-beck-webdev/' target="_blank" rel="noreferrer" > 
+                    <img src= {LinkedInButton} className='Linkedin-button' alt='Linkedin'/>
+                    </a>
                 </div>
                 <div className='About-container'> 
                     <About />
@@ -31,3 +35,9 @@ export default function Info() {
                 </div>
         </div>  
     )}
+
+    // document.querySelector('.Email-button').addEventListener('click', email)
+
+    // function email() {
+    //     return 
+    // }

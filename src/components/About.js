@@ -1,11 +1,9 @@
 import React from 'react' 
-import Info from './Info'
-import Interests from './Interests'
 
 export default function About() {
   return (
     <div className='About'>
       <h2 className='About-h2'> About </h2> 
-      <p className='About-p'> I am a frontend developer with a particular interest in making things simple and automating daily tasks. I try to keep up with security and best practices, and am always looking for new things to learn. </p>
+      <p className='About-p'> I am a full stack developer who is highly flexible, established learner, who is continuously expanding my knowledge to maintain current and upcoming coding compliances. I am looking to bring my skills to a tech company with global reach. </p>
     </div>  
 )}

@@ -5,25 +5,27 @@
 body {
   margin: 0;
   font-family: 'Inter', sans-serif;
+
+  overflow-y: hidden;
 }
 
 /* INFO.js formatting */
 
 .Card-Container {
   background-color: rgba(35, 37, 43, 1);
-  height: 868px; 
+  height: 850px; 
   width: 500px; 
   text-align: center;
-  margin: 1% 5%;
+  margin: 0% auto;
 }
 
 .profile-img {
-  margin-top: 41px;
+  margin-top: 25px;
 }
 
 .profile-h1 {
   color: #FFFFFF;
-  font-size: 30px;
+  font-size: 34px;
   font-weight: 700;
   margin: -2px 70px -2px 70px;
   padding: 14px 0 0 0; 
@@ -46,14 +48,19 @@ body {
  margin: 0 18%;
 }
 
-.email {
+.portfolio {
   font-weight: 400;
-  font-size: 10px;
+  font-size: 11px;
   line-height: 150%;
 /* identical to box height, or 15px */
   text-align: center; 
   color: rgba(245, 245, 245, 1);
   margin: 8px 0 0 0 ;
+}
+
+
+.portfolio:hover {
+  font-weight: bold;
 }
 
 .button-container {
@@ -64,6 +71,10 @@ body {
 
 .Email-button {
   margin-right: 17px;
+}
+
+.Email-button:hover, .Linkedin-button:hover{
+  height: 40px;
 }
 
 /* About & Interests component CSS */
@@ -99,9 +110,13 @@ body {
   justify-content: center;
 }
 
-.Footer-container > img {
+.Footer-container > a {
   height: 28px;
   width: 28px;
   align-self: center;
   margin-right: 5%;
+}
+
+.twitter-logo:hover, .github-logo:hover, .linkedin-logo:hover{
+  height: 30px;
 }
