@@ -5,8 +5,8 @@
 body {
   margin: 0;
   font-family: 'Inter', sans-serif;
-
   overflow-y: hidden;
+  background-color: black;
 }
 
 /* INFO.js formatting */
