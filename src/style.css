@@ -122,12 +122,3 @@ body {
 }
 
 /* Media Queries */
-
-@media screen and (max-width: 500px) {
-  .Card-Container {
-    background-color: rgba(35, 37, 43, 1);
-    height: 100vh; 
-    width: 500px; 
-    text-align: center;
-  }
-}
