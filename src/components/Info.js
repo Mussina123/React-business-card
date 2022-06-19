@@ -15,7 +15,8 @@ export default function Info() {
                 <h1 className='profile-h1'> Tyler Beck</h1>
                 <h3 className='job-title'>Frontend Engineer </h3>
                 <a href='https://tylerbeck-webdev.netlify.app/' target= '_blank' rel="noreferrer" > 
-                <h6 className='portfolio'>https://tylerbeck-webdev.netlify.app/</h6>
+                <h6 className='portfolio'>tylerbeck-webdev.netlify.app
+                </h6>
                 </a>
                 <div className='button-container'> 
                    <a href='mailto:softwaretpd2035@gmail.com'> <img src= {EmailButton} className='Email-button' alt='email'/></a>
